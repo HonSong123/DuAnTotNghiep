@@ -190,6 +190,13 @@
     transform: scale(1.1);
   }
 
+  .bi-2{
+    width: 24px; /* Kích thước của biểu tượng */
+    height: 24px; /* Kích thước của biểu tượng */
+    filter: drop-shadow(0 0 10px black); /* Tạo bóng để biểu tượng trông nổi bật hơn */
+    transition: transform 0.3s; 
+  }
+
 
   
   .desktop .line {
@@ -1033,6 +1040,7 @@
     align-items: flex-start;
     gap: 24px;
     position: relative;
+    cursor: pointer;
   }
   
   .desktop .frame-22 {
