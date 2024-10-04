@@ -1,0 +1,557 @@
+.account {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .account .div {
+    background-color: var(--purple-50);
+    overflow: hidden;
+    width: 1440px;
+    height: 1444px;
+    position: relative;
+  }
+  
+  .account .overlap {
+    position: absolute;
+    width: 268px;
+    height: 46px;
+    top: 389px;
+    left: 46px;
+  }
+  
+  .account .rectangle {
+    width: 268px;
+    height: 41px;
+    background-color: #041074;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .account .text-wrapper {
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    font-family: "Cambay-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary);
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+  }
+  
+  .account .topbar {
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: var(--black-color);
+  }
+  
+  .account .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 40px;
+    left: 0;
+  }
+  
+  .account .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: var(--purple-50);
+  }
+  
+  .account .frame {
+    display: flex;
+    width: 1110px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 18px;
+    left: 165px;
+  }
+  
+  .account .items-left {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .account .div-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .account .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .account .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
+  .account .text-wrapper-3 {
+    width: fit-content;
+    position: relative;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+  }
+  
+  .account .items-right {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .account .search-button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #34210a33;
+  }
+  
+  .account .line {
+    width: 1440px;
+    top: 69px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .account .text-wrapper-4 {
+    position: absolute;
+    top: 268px;
+    left: 607px;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 30px;
+    letter-spacing: 2.1px;
+    line-height: normal;
+  }
+  
+  .account .overlap-2 {
+    position: absolute;
+    width: 177px;
+    height: 81px;
+    top: 450px;
+    left: 50px;
+  }
+  
+  .account .text-wrapper-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Cambay-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black-color);
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+  }
+  
+  .account .text-wrapper-6 {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    font-family: "Cambay-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black-color);
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+  }
+  
+  .account .home-my-account {
+    position: absolute;
+    top: 249px;
+    left: 630px;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    text-align: center;
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
+  .account .footer {
+    position: absolute;
+    width: 1440px;
+    height: 457px;
+    top: 917px;
+    left: -24px;
+    background-color: var(--purple-50);
+  }
+  
+  .account .footer-links {
+    display: flex;
+    width: 1110px;
+    align-items: flex-start;
+    gap: 156px;
+    position: absolute;
+    top: 100px;
+    left: 165px;
+  }
+  
+  .account .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .account .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--bold-text-font-family);
+    font-weight: var(--bold-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--bold-text-font-size);
+    letter-spacing: var(--bold-text-letter-spacing);
+    line-height: var(--bold-text-line-height);
+    font-style: var(--bold-text-font-style);
+  }
+  
+  .account .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .account .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--purple-700);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .account .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--purple-700);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .account .line-2 {
+    width: 1110px;
+    top: 369px;
+    left: 165px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .account .terms-and-conditions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 274px;
+    position: absolute;
+    top: 394px;
+    left: 165px;
+  }
+  
+  .account .text-wrapper-10 {
+    width: 139px;
+    position: relative;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+  }
+  
+  .account .frame-3 {
+    display: flex;
+    width: 230px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .account .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .account .frame-4 {
+    display: flex;
+    width: 193px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .account .group {
+    position: relative;
+    width: 39px;
+    height: 39px;
+  }
+  
+  .account .overlap-group-2 {
+    position: relative;
+    height: 39px;
+    border-radius: 19.5px;
+  }
+  
+  .account .typcn-social {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 4px;
+    left: 3px;
+  }
+  
+  .account .ellipse {
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    border-radius: 19.5px;
+    border-color: var(--purple-600);
+    position: absolute;
+    border: 1px solid;
+  }
+  
+  .account .vector {
+    position: absolute;
+    width: 12px;
+    height: 21px;
+    top: 9px;
+    left: 13px;
+  }
+  
+  .account .vector-2 {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 12px;
+    left: 9px;
+  }
+  
+  .account .text-wrapper-12 {
+    position: absolute;
+    width: 155px;
+    top: 429px;
+    left: 340px;
+    font-family: "Caladea-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    line-height: normal;
+  }
+  
+  .account .text-wrapper-13 {
+    position: absolute;
+    width: 155px;
+    top: 470px;
+    left: 340px;
+    font-family: "Caladea-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .account .text-wrapper-14 {
+    position: absolute;
+    width: 155px;
+    top: 500px;
+    left: 340px;
+    font-family: "Caladea-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .account .text-wrapper-15 {
+    position: absolute;
+    width: 155px;
+    top: 530px;
+    left: 340px;
+    font-family: "Caladea-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .account .overlap-3 {
+    position: absolute;
+    width: 155px;
+    height: 30px;
+    top: 560px;
+    left: 340px;
+  }
+  
+  .account .text-wrapper-16 {
+    position: absolute;
+    width: 155px;
+    top: 0;
+    left: 0;
+    font-family: "Caladea-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .account .ellipse-2 {
+    width: 14px;
+    height: 12px;
+    top: 4px;
+    left: 135px;
+    background-color: #fffefe;
+    border-radius: 7px/6px;
+    border-color: #000000;
+    position: absolute;
+    border: 1px solid;
+  }
+  
+  .account .text-wrapper-17 {
+    position: absolute;
+    width: 155px;
+    top: 590px;
+    left: 340px;
+    font-family: "Caladea-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .account .overlap-4 {
+    position: absolute;
+    width: 232px;
+    height: 30px;
+    top: 560px;
+    left: 495px;
+  }
+  
+  .account .text-wrapper-18 {
+    position: absolute;
+    width: 155px;
+    top: 0;
+    left: 77px;
+    font-family: "Caladea-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .account .ellipse-3 {
+    position: absolute;
+    width: 14px;
+    height: 12px;
+    top: 4px;
+    left: 57px;
+    background-color: #fffefe;
+    border-radius: 7px/6px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .account .overlap-5 {
+    position: absolute;
+    width: 127px;
+    height: 42px;
+    top: 632px;
+    left: 332px;
+  }
+  
+  .account .rectangle-2 {
+    width: 114px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .account .text-wrapper-19 {
+    position: absolute;
+    width: 86px;
+    top: 5px;
+    left: 41px;
+    font-family: "Cormorant Garamond-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  

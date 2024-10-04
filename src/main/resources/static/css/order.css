@@ -1,0 +1,595 @@
+.my-order {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .my-order .div {
+    background-color: var(--purple-50);
+    overflow: hidden;
+    width: 1440px;
+    height: 1444px;
+    position: relative;
+  }
+  
+  .my-order .overlap {
+    position: absolute;
+    width: 265px;
+    height: 43px;
+    top: 448px;
+    left: 42px;
+  }
+  
+  .my-order .rectangle {
+    position: absolute;
+    width: 265px;
+    height: 41px;
+    top: 0;
+    left: 0;
+    background-color: #041074;
+  }
+  
+  .my-order .text-wrapper {
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    font-family: "Cambay-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--secondary);
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+  }
+  
+  .my-order .topbar {
+    position: absolute;
+    width: 1440px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: var(--black-color);
+  }
+  
+  .my-order .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 40px;
+    left: 0;
+  }
+  
+  .my-order .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background-color: var(--purple-50);
+  }
+  
+  .my-order .frame {
+    display: flex;
+    width: 1110px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 18px;
+    left: 165px;
+  }
+  
+  .my-order .items-left {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .my-order .div-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .my-order .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .my-order .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
+  .my-order .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+  }
+  
+  .my-order .items-right {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .my-order .search-button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #34210a33;
+  }
+  
+  .my-order .line {
+    width: 1440px;
+    top: 69px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .my-order .text-wrapper-4 {
+    position: absolute;
+    top: 268px;
+    left: 617px;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 30px;
+    letter-spacing: 2.1px;
+    line-height: normal;
+  }
+  
+  .my-order .text-wrapper-5 {
+    position: absolute;
+    top: 394px;
+    left: 55px;
+    font-family: "Cambay-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black-color);
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+  }
+  
+  .my-order .menu {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 110px;
+    left: 0;
+    background-color: var(--purple-50);
+  }
+  
+  .my-order .navbar-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    position: relative;
+    top: 25px;
+    left: 435px;
+  }
+  
+  .my-order .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
+  .my-order .text-wrapper-7 {
+    position: absolute;
+    top: 506px;
+    left: 42px;
+    font-family: "Cambay-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black-color);
+    font-size: 25px;
+    letter-spacing: 1.75px;
+    line-height: normal;
+  }
+  
+  .my-order .home-my-orders {
+    position: absolute;
+    top: 249px;
+    left: 635px;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    text-align: center;
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
+  .my-order .footer {
+    position: absolute;
+    width: 1440px;
+    height: 457px;
+    top: 917px;
+    left: -24px;
+    background-color: var(--purple-50);
+  }
+  
+  .my-order .footer-links {
+    display: flex;
+    width: 1110px;
+    align-items: flex-start;
+    gap: 156px;
+    position: absolute;
+    top: 100px;
+    left: 165px;
+  }
+  
+  .my-order .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .my-order .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--bold-text-font-family);
+    font-weight: var(--bold-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--bold-text-font-size);
+    letter-spacing: var(--bold-text-letter-spacing);
+    line-height: var(--bold-text-line-height);
+    font-style: var(--bold-text-font-style);
+  }
+  
+  .my-order .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .my-order .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--purple-700);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .my-order .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--purple-700);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .my-order .line-2 {
+    width: 1110px;
+    top: 369px;
+    left: 165px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .my-order .terms-and-conditions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 274px;
+    position: absolute;
+    top: 394px;
+    left: 165px;
+  }
+  
+  .my-order .text-wrapper-11 {
+    position: relative;
+    width: 139px;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+  }
+  
+  .my-order .frame-3 {
+    display: flex;
+    width: 230px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .my-order .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .my-order .frame-4 {
+    display: flex;
+    width: 193px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .my-order .group {
+    position: relative;
+    width: 39px;
+    height: 39px;
+  }
+  
+  .my-order .overlap-group-2 {
+    position: relative;
+    height: 39px;
+    border-radius: 19.5px;
+  }
+  
+  .my-order .typcn-social {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 4px;
+    left: 3px;
+  }
+  
+  .my-order .ellipse {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--purple-600);
+  }
+  
+  .my-order .vector {
+    position: absolute;
+    width: 12px;
+    height: 21px;
+    top: 9px;
+    left: 13px;
+  }
+  
+  .my-order .vector-2 {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 12px;
+    left: 9px;
+  }
+  
+  .my-order .text-wrapper-13 {
+    position: absolute;
+    width: 155px;
+    top: 429px;
+    left: 340px;
+    font-family: "Caladea-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1.4px;
+    line-height: normal;
+  }
+  
+  .my-order .text-wrapper-14 {
+    position: absolute;
+    width: 155px;
+    top: 470px;
+    left: 383px;
+    font-family: "Caladea-Bold", Helvetica;
+    font-weight: 700;
+    color: #172b85;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .my-order .text-wrapper-15 {
+    position: absolute;
+    width: 155px;
+    top: 679px;
+    left: 383px;
+    font-family: "Caladea-Bold", Helvetica;
+    font-weight: 700;
+    color: #172b85;
+    font-size: 15px;
+    letter-spacing: 1.05px;
+    line-height: normal;
+  }
+  
+  .my-order .vector-wrapper {
+    position: absolute;
+    width: 410px;
+    height: 34px;
+    top: 426px;
+    left: 776px;
+    border: 1px solid;
+    border-color: #848080;
+  }
+  
+  .my-order .vector-3 {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 5px;
+    left: 9px;
+  }
+  
+  .my-order .cosmograph-daytona {
+    position: absolute;
+    top: 550px;
+    left: 512px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 1.53px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .my-order .text-wrapper-16 {
+    position: absolute;
+    top: 578px;
+    left: 512px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 1.76px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .my-order .text-wrapper-17 {
+    position: absolute;
+    top: 601px;
+    left: 512px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 2.2px;
+    line-height: normal;
+  }
+  
+  .my-order .rectangle-2 {
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    top: 512px;
+    left: 327px;
+    object-fit: cover;
+  }
+  
+  .my-order .vector-4 {
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    top: 568px;
+    left: 1211px;
+  }
+  
+  .my-order .cosmograph-daytona-2 {
+    position: absolute;
+    top: 766px;
+    left: 510px;
+    font-family: "Raleway-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 18px;
+    letter-spacing: 1.53px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .my-order .text-wrapper-18 {
+    position: absolute;
+    top: 794px;
+    left: 510px;
+    font-family: "Josefin Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 1.76px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .my-order .text-wrapper-19 {
+    position: absolute;
+    top: 817px;
+    left: 510px;
+    font-family: "Poppins-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 2.2px;
+    line-height: normal;
+  }
+  
+  .my-order .rectangle-3 {
+    position: absolute;
+    width: 157px;
+    height: 157px;
+    top: 728px;
+    left: 325px;
+    object-fit: cover;
+  }
+  
+  .my-order .vector-5 {
+    position: absolute;
+    width: 10px;
+    height: 16px;
+    top: 784px;
+    left: 1209px;
+  }
+  
+  .my-order .box {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 685px;
+    left: 340px;
+  }
+  

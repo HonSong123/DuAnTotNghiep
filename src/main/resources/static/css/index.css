@@ -34,6 +34,10 @@
     line-height: var(--body-text-line-height);
     font-style: var(--body-text-font-style);
   }
+
+  .desktop .text-wrapper-4 a:hover{
+    color: red
+  }
   
   .desktop .overlap {
     position: absolute;
@@ -109,23 +113,84 @@
   
   .desktop .items-right {
     align-items: center;
-    display: inline-flex;
-    gap: 8px;
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử */
+    gap: 12px; /* Khoảng cách giữa các phần tử */
     position: relative;
     flex: 0 0 auto;
   }
   
-  .desktop .search-button {
+  .search-container {
     display: flex;
-    width: 160px;
     align-items: center;
-    justify-content: space-between;
-    padding: 5px 20px;
+    width: 110px; /* Chiều rộng của thanh tìm kiếm */
+    padding: 5px; /* Padding cho thanh tìm kiếm */
+    border: 1px solid #ddd; /* Màu viền sáng */
+    border-radius: 30px; /* Bo tròn */
     position: relative;
-    border-radius: 30px;
-    border: 1px solid;
-    border-color: #34210a33;
+    background-color: #f9f9f9; /* Màu nền sáng */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    transition: all 0.3s ease; /* Hiệu ứng chuyển động */
   }
+  
+  .search-input {
+    display: none; /* Ẩn ô nhập liệu */
+    width: 100%; /* Đặt chiều rộng ô nhập bằng chiều rộng container */
+    border: none; /* Không viền */
+    outline: none; /* Không viền khi focus */
+    padding-left: 10px; /* Khoảng cách bên trái */
+    font-size: 16px; /* Kích thước chữ */
+    background-color: #f9f9f9; /* Nền ô nhập */
+  }
+  
+  .search-container:focus-within .search-input {
+    display: inline-block; /* Hiển thị ô nhập liệu khi focus */
+  }
+  
+  .search-container:focus-within .text-wrapper-2 {
+    display: none; /* Ẩn chữ "Tìm Kiếm" khi ô nhập liệu được focus */
+  }
+  
+  .search-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer; /* Thay đổi con trỏ khi hover */
+  }
+  
+  .search-button:hover {
+    background-color: #e6e6e6; /* Hiệu ứng hover cho nút tìm kiếm */
+    border-radius: 30px; /* Bo tròn */
+  }
+  
+  .search-button i {
+    margin-left: 8px; /* Khoảng cách giữa chữ và icon */
+    color: #007bff; /* Màu cho icon tìm kiếm */
+    font-size: 18px; /* Kích thước icon */
+  }
+  
+  .img {
+    width: 50px; /* Kích thước icon */
+    height: 50px; /* Kích thước icon */
+    transition: transform 0.3s; /* Hiệu ứng khi hover */
+  }
+  
+  .bi:hover {
+    transform: scale(1.1); /* Phóng to khi hover */
+  }
+  .bi {
+    font-size: 20px; /* Thay đổi kích thước icon từ thư viện Bootstrap Icons */
+    transition: transform 0.3s; /* Hiệu ứng khi hover */
+  }
+
+  .bi-1{
+    font-size: 30px; /* Thay đổi kích thước icon từ thư viện Bootstrap Icons */
+    transition: transform 0.3s; /* Hiệu ứng khi hover */
+    color: #987553;
+  }
+  .bi-1:hover{
+    transform: scale(1.1);
+  }
+
+
   
   .desktop .line {
     position: absolute;
@@ -226,6 +291,7 @@
     position: relative;
     width: 220px;
     height: 260px;
+    object-fit: cover;
   }
   
   .desktop .div-3 {
@@ -272,8 +338,9 @@
   
   .desktop .rectangle-3 {
     position: relative;
-    width: 204px;
+    width: 220px;
     height: 260px;
+    object-fit: cover;
   }
   
   .desktop .rectangle-4 {
@@ -562,7 +629,7 @@
     gap: 48px;
     position: relative;
     top: 276px;
-    left: 69px;
+    left: 35px;
   }
   
   .desktop .frame-12 {

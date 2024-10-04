@@ -1,0 +1,887 @@
+.checkout-contacts {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .checkout-contacts .div {
+    background-color: var(--background-light);
+    width: 1920px;
+    height: 2588px;
+    position: relative;
+  }
+  
+  .checkout-contacts .overlap {
+    position: absolute;
+    width: 491px;
+    height: 570px;
+    top: 403px;
+    left: 1245px;
+  }
+  
+  .checkout-contacts .popap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--grey);
+  }
+  
+  .checkout-contacts .frame {
+    display: flex;
+    width: 410px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--20-libre-font-family);
+    font-weight: var(--20-libre-font-weight);
+    color: var(--black);
+    font-size: var(--20-libre-font-size);
+    letter-spacing: var(--20-libre-letter-spacing);
+    line-height: var(--20-libre-line-height);
+    font-style: var(--20-libre-font-style);
+  }
+  
+  .checkout-contacts .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .checkout-contacts .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .div-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .rectangle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  
+  .checkout-contacts .frame-4 {
+    display: flex;
+    flex-direction: column;
+    width: 227px;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .checkout-contacts .gold-ring-with {
+    position: relative;
+    width: 231px;
+    margin-top: -1px;
+    margin-right: -4px;
+    font-family: "Mulish-SemiBold", Helvetica;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .checkout-contacts .text-wrapper-2 {
+    width: 270px;
+    margin-right: -43px;
+    font-family: var(--main-text-font-family);
+    color: var(--black);
+    line-height: var(--main-text-line-height);
+    position: relative;
+    font-weight: var(--main-text-font-weight);
+    font-size: var(--main-text-font-size);
+    letter-spacing: var(--main-text-letter-spacing);
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .text-wrapper-3 {
+    font-size: var(--20-libre-font-size);
+    position: relative;
+    width: fit-content;
+    font-family: var(--20-libre-font-family);
+    font-weight: var(--20-libre-font-weight);
+    color: var(--black);
+    text-align: right;
+    letter-spacing: var(--20-libre-letter-spacing);
+    line-height: var(--20-libre-line-height);
+    font-style: var(--20-libre-font-style);
+  }
+  
+  .checkout-contacts .div-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .placeholder-wrapper {
+    display: flex;
+    width: 290px;
+    height: 32px;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 10px 0px 16px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--grey);
+  }
+  
+  .checkout-contacts .placeholder {
+    position: relative;
+    width: fit-content;
+    font-family: "Mulish-Regular", Helvetica;
+    font-weight: 400;
+    color: #b5abaa;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    white-space: nowrap;
+  }
+  
+  .checkout-contacts .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 100px;
+    height: 32px;
+    gap: 16px;
+    padding: 10px 20px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkout-contacts .add-code {
+    position: relative;
+    width: fit-content;
+    margin-top: -4.5px;
+    margin-bottom: -2.5px;
+    margin-left: -1px;
+    margin-right: -1px;
+    font-family: "Playfair Display-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--black);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .checkout-contacts .line {
+    position: relative;
+    width: 410px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .checkout-contacts .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--main-text-font-family);
+    font-weight: var(--main-text-font-weight);
+    color: var(--black);
+    font-size: var(--main-text-font-size);
+    letter-spacing: var(--main-text-letter-spacing);
+    line-height: var(--main-text-line-height);
+    white-space: nowrap;
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .text-wrapper-5 {
+    font-size: var(--button-font-size);
+    position: relative;
+    width: fit-content;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    color: var(--black);
+    text-align: right;
+    letter-spacing: var(--button-letter-spacing);
+    line-height: var(--button-line-height);
+    font-style: var(--button-font-style);
+  }
+  
+  .checkout-contacts .frame-5 {
+    display: flex;
+    width: 410px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Mulish-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #004c3f;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .checkout-contacts .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--main-text-font-family);
+    font-weight: var(--main-text-font-weight);
+    color: var(--black);
+    font-size: var(--main-text-font-size);
+    text-align: right;
+    letter-spacing: var(--main-text-letter-spacing);
+    line-height: var(--main-text-line-height);
+    white-space: nowrap;
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .text-wrapper-8 {
+    margin-top: -1px;
+    font-size: var(--20-libre-font-size);
+    position: relative;
+    width: fit-content;
+    font-family: var(--20-libre-font-family);
+    font-weight: var(--20-libre-font-weight);
+    color: var(--black);
+    text-align: right;
+    letter-spacing: var(--20-libre-letter-spacing);
+    line-height: var(--20-libre-line-height);
+    font-style: var(--20-libre-font-style);
+  }
+  
+  .checkout-contacts .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 70px;
+    left: 254px;
+    background-color: var(--purple-50);
+  }
+  
+  .checkout-contacts .frame-6 {
+    display: flex;
+    width: 1110px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 18px;
+    left: 165px;
+  }
+  
+  .checkout-contacts .div-4 {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .div-5 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
+  .checkout-contacts .text-wrapper-10 {
+    width: fit-content;
+    position: relative;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+  }
+  
+  .checkout-contacts .items-right {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .search-button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    width: 160px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid;
+    border-color: #34210a33;
+  }
+  
+  .checkout-contacts .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    top: 69px;
+    left: 311px;
+    background-image: url(./img/line-2-2.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .checkout-contacts .line-2 {
+    position: absolute;
+    width: 1440px;
+    top: 0;
+    left: 0;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .checkout-contacts .text-wrapper-11 {
+    position: absolute;
+    top: 274px;
+    left: 849px;
+    font-family: var(--h1-font-family);
+    font-weight: var(--h1-font-weight);
+    color: var(--black-color);
+    font-size: var(--h1-font-size);
+    letter-spacing: var(--h1-letter-spacing);
+    line-height: var(--h1-line-height);
+    font-style: var(--h1-font-style);
+  }
+  
+  .checkout-contacts .overlap-2 {
+    position: absolute;
+    width: 1010px;
+    height: 941px;
+    top: 403px;
+    left: 150px;
+  }
+  
+  .checkout-contacts .more-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    width: 230px;
+    height: 51px;
+    gap: 10px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 795px;
+    left: 743px;
+    background-color: var(--grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkout-contacts .more {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.5px;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    color: #ffffff;
+    font-size: var(--button-font-size);
+    text-align: center;
+    letter-spacing: var(--button-letter-spacing);
+    line-height: var(--button-line-height);
+    font-style: var(--button-font-style);
+  }
+  
+  .checkout-contacts .info {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .checkout-contacts .contact {
+    display: flex;
+    flex-direction: column;
+    width: 1010px;
+    height: 941px;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 40px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--grey);
+  }
+  
+  .checkout-contacts .text-wrapper-12 {
+    position: relative;
+    width: 930px;
+    margin-top: -1px;
+    font-family: var(--20-libre-font-family);
+    font-weight: var(--20-libre-font-weight);
+    color: var(--black);
+    font-size: var(--20-libre-font-size);
+    letter-spacing: var(--20-libre-letter-spacing);
+    line-height: var(--20-libre-line-height);
+    font-style: var(--20-libre-font-style);
+  }
+  
+  .checkout-contacts .input {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .email-address {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-font-family);
+    font-weight: var(--button-font-weight);
+    color: var(--black);
+    font-size: var(--button-font-size);
+    letter-spacing: var(--button-letter-spacing);
+    line-height: var(--button-line-height);
+    font-style: var(--button-font-style);
+  }
+  
+  .checkout-contacts .email-address-wrapper {
+    display: flex;
+    width: 455px;
+    height: 52px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 452px 10px 10px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--beige);
+  }
+  
+  .checkout-contacts .email-address-2 {
+    margin-right: -88px;
+    position: relative;
+    width: fit-content;
+    font-family: var(--main-text-font-family);
+    font-weight: var(--main-text-font-weight);
+    color: var(--grey);
+    font-size: var(--main-text-font-size);
+    letter-spacing: var(--main-text-letter-spacing);
+    line-height: var(--main-text-line-height);
+    white-space: nowrap;
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .frame-7 {
+    width: 930px;
+    justify-content: space-between;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--beige);
+  }
+  
+  .checkout-contacts .email-address-3 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--main-text-font-family);
+    font-weight: var(--main-text-font-weight);
+    color: var(--grey);
+    font-size: var(--main-text-font-size);
+    letter-spacing: var(--main-text-letter-spacing);
+    line-height: var(--main-text-line-height);
+    white-space: nowrap;
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .div-wrapper {
+    width: 930px;
+    gap: 10px;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--beige);
+  }
+  
+  .checkout-contacts .button-learn-more {
+    position: relative;
+    width: 86px;
+    height: 24px;
+  }
+  
+  .checkout-contacts .text-wrapper-13 {
+    position: absolute;
+    height: 24px;
+    top: 0;
+    left: 0;
+    font-family: "Mulish-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .checkout-contacts .frame-8 {
+    width: 455px;
+    justify-content: space-between;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    border: 1px solid;
+    border-color: var(--beige);
+  }
+  
+  .checkout-contacts .email-address-4 {
+    margin-right: -72px;
+    position: relative;
+    width: fit-content;
+    font-family: var(--main-text-font-family);
+    font-weight: var(--main-text-font-weight);
+    color: var(--grey);
+    font-size: var(--main-text-font-size);
+    letter-spacing: var(--main-text-letter-spacing);
+    line-height: var(--main-text-line-height);
+    white-space: nowrap;
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .label {
+    position: relative;
+    width: 421px;
+    height: 16px;
+    margin-top: -1px;
+    font-family: var(--main-text-font-family);
+    font-weight: var(--main-text-font-weight);
+    color: var(--black);
+    font-size: var(--main-text-font-size);
+    letter-spacing: var(--main-text-letter-spacing);
+    line-height: var(--main-text-line-height);
+    white-space: nowrap;
+    font-style: var(--main-text-font-style);
+  }
+  
+  .checkout-contacts .group {
+    position: absolute;
+    width: 254px;
+    height: 54px;
+    top: 998px;
+    left: 1382px;
+  }
+  
+  .checkout-contacts .overlap-group-2 {
+    position: relative;
+    width: 252px;
+    height: 54px;
+    background-color: #f5ebe0;
+    border-radius: 7px;
+  }
+  
+  .checkout-contacts .text-wrapper-14 {
+    position: absolute;
+    width: 131px;
+    top: 19px;
+    left: 63px;
+    font-family: "Josefin Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #979797;
+    font-size: 20px;
+    letter-spacing: 4.5px;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .checkout-contacts .footer {
+    position: absolute;
+    width: 1440px;
+    height: 457px;
+    top: 2030px;
+    left: 275px;
+    background-color: var(--purple-50);
+  }
+  
+  .checkout-contacts .footer-links {
+    display: flex;
+    width: 1110px;
+    align-items: flex-start;
+    gap: 156px;
+    position: absolute;
+    top: 100px;
+    left: 165px;
+  }
+  
+  .checkout-contacts .div-6 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .text-wrapper-15 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--bold-text-font-family);
+    font-weight: var(--bold-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--bold-text-font-size);
+    letter-spacing: var(--bold-text-letter-spacing);
+    line-height: var(--bold-text-line-height);
+    font-style: var(--bold-text-font-style);
+  }
+  
+  .checkout-contacts .frame-9 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .checkout-contacts .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--purple-700);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .checkout-contacts .text-wrapper-17 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--purple-700);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .checkout-contacts .line-3 {
+    position: absolute;
+    width: 1110px;
+    top: 369px;
+    left: 165px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .checkout-contacts .terms-and-conditions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 274px;
+    position: absolute;
+    top: 394px;
+    left: 165px;
+  }
+  
+  .checkout-contacts .text-wrapper-18 {
+    width: 139px;
+    position: relative;
+    font-family: "Calistoga-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--black-color);
+    font-size: 24px;
+    letter-spacing: 1.68px;
+    line-height: normal;
+  }
+  
+  .checkout-contacts .frame-10 {
+    display: flex;
+    width: 230px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .checkout-contacts .text-wrapper-19 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--body-text-font-family);
+    font-weight: var(--body-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--body-text-font-size);
+    letter-spacing: var(--body-text-letter-spacing);
+    line-height: var(--body-text-line-height);
+    font-style: var(--body-text-font-style);
+  }
+  
+  .checkout-contacts .frame-11 {
+    display: flex;
+    width: 193px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .checkout-contacts .overlap-group-wrapper {
+    position: relative;
+    width: 39px;
+    height: 39px;
+  }
+  
+  .checkout-contacts .overlap-group-3 {
+    position: relative;
+    height: 39px;
+    border-radius: 19.5px;
+  }
+  
+  .checkout-contacts .typcn-social {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 4px;
+    left: 3px;
+  }
+  
+  .checkout-contacts .ellipse {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--purple-600);
+  }
+  
+  .checkout-contacts .vector {
+    position: absolute;
+    width: 12px;
+    height: 21px;
+    top: 9px;
+    left: 13px;
+  }
+  
+  .checkout-contacts .vector-2 {
+    position: absolute;
+    width: 20px;
+    height: 16px;
+    top: 12px;
+    left: 9px;
+  }
+  
+  .checkout-contacts .topbar {
+    position: absolute;
+    width: 1920px;
+    height: 40px;
+    top: 0;
+    left: 0;
+    background-color: var(--black-color);
+  }
+  
+  .checkout-contacts .menu {
+    position: absolute;
+    width: 1584px;
+    top: 140px;
+    left: 336px;
+    height: 70px;
+    background-color: var(--purple-50);
+  }
+  
+  .checkout-contacts .navbar-wrapper {
+    width: 1440px;
+    height: 70px;
+    background-color: var(--purple-50);
+  }
+  
+  .checkout-contacts .navbar-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    position: relative;
+    top: 25px;
+    left: 435px;
+  }
+  
+  .checkout-contacts .text-wrapper-20 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--button-text-font-family);
+    font-weight: var(--button-text-font-weight);
+    color: var(--black-color);
+    font-size: var(--button-text-font-size);
+    letter-spacing: var(--button-text-letter-spacing);
+    line-height: var(--button-text-line-height);
+    font-style: var(--button-text-font-style);
+  }
+  
